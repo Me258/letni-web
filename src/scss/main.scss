@@ -1,0 +1,24 @@
+$hlavni-barva:#f58723;
+
+h1{
+    color: $hlavni-barva;
+    
+}
+
+@mixin moreThan($size){
+
+
+}
+
+.media{
+    @include moreThan(576px){
+        display: flex;
+    }
+  
+}
+
+
+
+
+// flex: 0 0 100px 
+// grow, shrink, basis - da mi stejnou sirku sloupcu nehlede na mnozstvi obsahu.
